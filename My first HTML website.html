@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME AESTHETICS</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+<link rel="alternate" href="contact.html" type="Contact-form" title="Contact">
+<link rel="stylesheet" href="about.html">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+<style>
+    /*CSS reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('https://media.istockphoto.com/id/1492489427/photo/abstract-blurred-interior-modern-office-space-work-banner-background-with-copy-space-no-people.jpg?s=612x612&w=0&k=20&c=Ob-foG_RQPQYbNK3j8e9mOg_QI5ypb2ZM-LUXc3q_yk=');
+        background-size: cover;
+        height: 1850px;
+        color: black;
+        font-family: "Balsamiq Sans", sans-serif;
+        font-size: large;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 37px;
+        top: -7px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 24px auto;
+
+
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 22px;
+    }
+
+    .navbar {
+        display: inline-block;
+        padding: 8px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 40px;
+    }
+
+    .navbar li a.active,
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left img {
+        width: 68px;
+        margin: 1px;
+        padding: 13px;
+
+    }
+
+    .btnn {
+        background-color: transparent;
+        font-size: 19px;
+        margin: 5px 15px;
+        padding: 6px 10px;
+        border: none;
+        color: white;
+    }
+
+    .btn {
+        background-color: black;
+        margin: 5px 15px;
+        padding: 3px 6px;
+        color: white;
+        font-size: 15px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: "Balsamiq Sans", sans-serif;
+    }
+
+    .btn:hover {
+        background-color: dimgrey;
+    }
+
+    .btnn:hover {
+        background-color: rgb(55, 55, 55);
+        cursor: pointer;
+    }
+
+    .Template {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: -17px -25px;
+        color: white;
+    }
+
+    .header {
+        background-color: black;
+        height: 4%;
+        position: sticky;
+        width: 101%;
+    }
+
+    .container img {
+
+        height: 500px;
+        width: 118%;
+        margin: 0px -259px;
+    }
+
+    .slogan {
+        margin: -372px 558px;
+        color: white;
+        font-family: fangsong;
+        font-size: 59px;
+    }
+
+    .image1 {
+        width: 392px;
+        float: right;
+        margin: -507px 136px;
+        font-size: larger;
+    }
+
+    .image1:hover {
+        text-decoration: underline;
+    }
+
+    .image2 {
+        width: 374px;
+        box-sizing: border-box;
+        float: right;
+        margin: -508px 547px;
+        font-size: larger;
+    }
+
+    .image2:hover {
+        text-decoration: underline;
+    }
+
+    .image3 {
+        width: 453px;
+        margin: -505px 49px;
+        font-size: larger;
+    }
+
+    .image3:hover {
+        text-decoration: underline;
+    }
+
+    .heading {
+        color: black;
+        text-decoration: underline;
+        display: block;
+        box-sizing: border-box;
+        margin: 557px 616px;
+    }
+
+    .inner-image1 {
+        transition: 0.2s;
+    }
+
+    .image1 .inner-image1:hover {
+        transform: scale(1.05);
+    }
+
+    .inner-image2 {
+        transition: 0.2s;
+    }
+
+    .image2 .inner-image2:hover {
+        transform: scale(1.05);
+    }
+
+    .inner-image3 {
+        transition: 0.2s;
+    }
+
+    .image3 .inner-image3:hover {
+        transform: scale(1.05);
+    }
+
+    h2 {
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0px -17px;
+    }
+
+    .image1 img {
+        border-style: groove;
+        border-width: 5px;
+    }
+
+    .image2 img {
+        border-style: groove;
+        border-width: 5px;
+    }
+
+    .image3 img {
+        border-style: groove;
+        border-width: 5px;
+    }
+
+    span {
+        color: rgb(250, 32, 32);
+    }
+
+    .bottom {
+        background-color: rgb(38 37 105);
+        color: white;
+        margin: 573px auto;
+        padding: 248px;
+    }
+
+    h3 {
+        color: dimgray;
+        font-weight: bold;
+    }
+
+    .address {
+        font-family: 'Franklin Gothic Medium', Arial;
+        margin: -184px -227px;
+    }
+
+    .links {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 74px -208px;
+        float: right;
+        display: block;
+    }
+
+    .clients {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 74px 190px;
+        float: left;
+    }
+
+    .help {
+        margin: 84px 259px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .follow h3 {
+        margin: -19px 255px;
+        text-decoration: underline;
+    }
+
+    .follow {
+        margin: -14px 185px;
+    }
+
+    .follow img {
+        margin: 57px;
+    }
+
+    .thankyou {
+        font-family: "Baskervville SC", serif;
+        font-weight: bold;
+        font-size: x-large;
+        margin: 0px 384px;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="https://img.icons8.com/?size=60&id=ndVp2fvZmjCv&format=png" alt="">
+            <div class="Template">&nbsp;Home Aesthetics</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="contact.html" target="_blank" class="contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="tel: +91 88394-88413"><button class="btn">Call us now</button></a>
+            <a href="dropdown-menu"> <button class="btnn">&#xFE19;</button></a>
+
+        </div>
+    </header>
+    <div class="container">
+        <img src="https://media.istockphoto.com/id/1256263980/photo/modern-minimalist-family-villa.jpg?s=612x612&w=0&k=20&c=rkKYdsZMo307WBaimMSmGIbgG9VbMTj1OFIx2BzBIIY="
+            alt="">
+    </div>
+    <div class="slogan">
+        Transform your Space with Aesthetic Ideas!!
+    </div>
+    <div class="heading">
+        <h2>OUR TOP PRODUCTS</h2>
+    </div>
+
+    <div class="image1">
+        <img src="https://m.media-amazon.com/images/I/81a3yjFQ6zL._AC_UL480_FMwebp_QL65_.jpg" class="inner-image1">
+        <br><br>
+        Artificial vines with fairy lights and green leaves <span>for Rs.357/- only</span>
+    </div>
+    <div class="image2">
+        <img src="https://m.media-amazon.com/images/I/51el8dYeSIL._AC_UL480_FMwebp_QL65_.jpg" class="inner-image2">
+        <br><br>
+        Handmade Wooden Shelf Wall Hangings for Home Decoration <br><span>for Rs.309/- only</span>
+    </div>
+    <div class="image3">
+        <img src="https://m.media-amazon.com/images/I/51WEVVQeNfL._AC_UL480_FMwebp_QL65_.jpg" class="inner-image3">
+        <br><br>
+        Flower Ceramic Vases for Living room <br><span>for Rs.889/- only</span>
+    </div>
+
+    <div class="bottom">
+        <div class="address">
+            <h3>Our Address :</h3>
+            32-B Flower Villa, Near Gopilal township <br> Delhi-110001
+            Delhi, India
+        </div>
+
+        <div class="links">
+            <h3>How to reach us :</h3>
+            Email : HomeAesthetics@gmail.com <br>
+            Facebook : Aesthetic_Gallery <br>
+            Instagram : Aesthetic_gallery
+
+        </div>
+
+        <div class="clients">
+            <h3>Our collaborators :</h3>
+            Myntra <br>
+            Cleartrip <br>
+            Shopsy
+
+        </div>
+
+        <div class="help">
+            <h3>Help :</h3>
+            FAQ <br>
+            Refunds & Exchanges
+            Customer care: 8839488413
+
+        </div>
+
+        <div class="follow">
+            <h3>Follow us on</h3>
+            <a href="https://www.facebook.com"><input type="button" value=""><img
+                    src="https://img.icons8.com/?size=30&id=118466&format=png"></a>
+
+            <a href="https://www.instagram.com"><input type="button" value=""><img
+                    src="https://img.icons8.com/?size=30&id=dz63urxyxSdO&format=png"></a>
+
+            <a href="https://www.x.com"><input type="button" value=""><img
+                    src="https://img.icons8.com/?size=30&id=01GWmP9aUoPj&format=png"></a>
+
+            <a href="https://www.youtube.com"><input type="button" value=""><img
+                    src="https://img.icons8.com/?size=30&id=62852&format=png"></a>
+
+        </div>
+        <div class="thankyou">
+            Thank You! Visit again.
+        </div>
+    </div>
+</body>
+
+</html>
