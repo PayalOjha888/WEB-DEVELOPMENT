@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+h1 {
+    margin: 5px 0px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    color: rgb(1, 1, 58);
+    border-radius: 13px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.0);
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+#reset {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 3px solid rgb(46, 2, 2);
+    background-color: rgb(254, 178, 178);
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#reset:hover {
+    cursor: pointer;
+    background-color: rgb(125, 67, 67);
+}
+
+#new-btn {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 3px solid rgb(46, 2, 2);
+    background-color: rgb(254, 178, 178);
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#new-btn:hover{
+    cursor: pointer;
+    background-color: rgb(125, 67, 67);
+}
+
+#msg {
+    color: rgb(15, 15, 62);
+    font-size: x-large;
+    font-weight: bold;
+}
+#draw-msg{
+    color: rgb(15, 15, 62);
+    font-size: x-large;
+    font-weight: bold;
+}
+.draw-container{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+#restart{
+    padding: 1rem;
+    border-radius: 10px;
+    border: 3px solid rgb(46, 2, 2);
+    background-color: rgb(254, 178, 178);
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#restart:hover{
+    cursor: pointer;
+    background-color: rgb(125, 67, 67);
+}
+
+.winner-container {
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+
+.hide {
+    display: none;
+}
+
