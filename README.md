@@ -1,2 +1,2 @@
 # WEB-DEVELOPMENT
-Here, I'll upload my progress in learning the web development. 
+This is Tic-Tac-Toe game, a working project I made using HTML,CSS and JavaScript. 
